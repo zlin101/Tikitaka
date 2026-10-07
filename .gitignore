@@ -1,0 +1,5 @@
+# Native resume probe output may contain session IDs and runtime logs.
+/artifacts/native-resume/
+
+# go build ./... emits this executable while the module has one main package.
+/native-resume
